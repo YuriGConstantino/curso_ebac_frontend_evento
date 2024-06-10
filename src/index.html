@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles/main.scss">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="hero__logo__container">
+                <img class="hero__logo-img" src="./images/logo.png" alt="">
+                <p class="hero__logo-text">Ai Academy</p>
+            </div>
+            <p class="hero__text">
+                O maior evento de Inteligência Artificial do Brasil começa em <span data-contador="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra funda
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 120,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        11/09/2024 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Garanta a sua vaga</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="event__container">
+        <section  class="event event--front-end">
+            <div data-aos="fade-right" class="container">
+                <div class="event__details">
+                    <h2 class="event__details__title">Marketing e Negócios</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fuga expedita, eaque iure mollitia necessitatibus fugiat at corrupti a tempora? Necessitatibus voluptate repudiandae vero quia placeat? Laudantium assumenda repellendus fugiat.</p>
+                </div>
+                <img class="event__image" src="./images/artificial no marketing digital.jpg" alt="">
+            </div>
+        </section>
+        <section  class="event event--ux-ui event--image-left">
+            <div data-aos="fade-left" class="container">
+                <div class="event__details">
+                    <h2 class="event__details__title">Analise de Dados</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fuga expedita, eaque iure mollitia necessitatibus fugiat at corrupti a tempora? Necessitatibus voluptate repudiandae vero quia placeat? Laudantium assumenda repellendus fugiat.</p>
+                </div>
+                <img class="event__image" src="./images/data-science-analytics-inteligencia-artificial-1024x576.jpg" alt="">
+            </div>
+        </section>
+        <section class="event event--data-science">
+            <div data-aos="fade-right" class="container">
+                <div class="event__details">
+                    <h2 class="event__details__title">Design e Arquitetura</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fuga expedita, eaque iure mollitia necessitatibus fugiat at corrupti a tempora? Necessitatibus voluptate repudiandae vero quia placeat? Laudantium assumenda repellendus fugiat.</p>
+                </div>
+                <img class="event__image" src="./images/architecture-IA-04-1024x512.png" alt="">
+            </div>
+        </section>
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
